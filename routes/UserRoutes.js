@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 const User = require("../model/User");
 const {getUsers,register,deleteUser,updateUser} = require("../controllers/UserController");
-const {logIn,getMe} = require("../controllers/userController");
+const {logIn,getMe} = require("../controllers/UserController");
 const {auth} = require("../middleware/authMiddleware");
 
 /* GET users listing. */
